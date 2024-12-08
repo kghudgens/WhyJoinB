@@ -49,13 +49,11 @@ public class User {
     public User() {
     }
 
-    public User(Long userId, String firstName, String lastName, Branch branch, int age, List<Post> posts) {
-        this.userId = userId;
+    public User(String firstName, String lastName, Branch branch, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.branch = branch;
         this.age = age;
-        this.posts = posts;
     }
 
     public Long getUserId() {
