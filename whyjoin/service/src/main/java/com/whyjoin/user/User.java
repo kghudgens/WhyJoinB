@@ -4,10 +4,13 @@ import java.util.Objects;
 
 import com.whyjoin.branch.Branch;
 
+import jakarta.persistence.Entity;
+
 /**
  * User object created representing the user of the class and the need data to
  * improve their experience.
  */
+@Entity
 public class User {
     String id;
     String firstName;
